@@ -1,0 +1,44 @@
+header{
+    height: 120px;
+    background-color: rgb(27, 144, 117);
+}
+
+footer{
+    height: 120px;
+    background-color: peru;
+}
+
+table img{ width: 70px;}
+
+/*tabel cellen*/
+#cel-rij-1-kolom-1{ background-color: #CCCCFF;}
+
+#cel-rij-1-kolom-2{ background-color: #CC99FF;}
+
+#cel-rij-1-kolom-3{ background-color: #CC66FF;}
+
+#cel-rij-1-kolom-4{ background-color: #CC33ff;}
+
+#cel-rij-2-kolom-1{ background-color: #CCC;}
+
+#cel-rij-2-kolom-2{ background-color: #CC99CC;}
+
+#cel-rij-2-kolom-3{ background-color: #CC66CC;}
+
+#cel-rij-2-kolom-4{ background-color: #CC33CC;}
+
+#cel-rij-3-kolom-1{ background-color: #CCCC99;}
+
+#cel-rij-3-kolom-2{ background-color: #CC9999;}
+
+#cel-rij-3-kolom-3{ background-color: #CC6699;}
+
+#cel-rij-3-kolom-4{ background-color: #CC3399;}
+
+#cel-rij-4-kolom-1{ background-color: #CCCC66;}
+
+#cel-rij-4-kolom-2{ background-color: #CC9966;}
+
+#cel-rij-4-kolom-3{ background-color: #CC6666;}
+
+#cel-rij-4-kolom-4{ background-color: #CC3366;}
