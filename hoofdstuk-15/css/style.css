@@ -1,0 +1,125 @@
+
+
+body{
+    width: 100%;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #a89ae0;
+    padding: 5px;
+    font-family: sans-serif;
+}
+
+header{
+    padding: 6px;
+    background-color: #3801ad;
+    border-radius: 5px;
+    margin-bottom: 4px;
+}
+
+header ul{ 
+    list-style-type: none; 
+    padding-left: 0px;
+    margin:0px;
+}
+
+header li{ 
+    display: inline-block;
+    margin: 4px;
+}
+
+header li a{
+    display: inline-block;
+    padding: 8px 12px;
+    min-width: 80px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #efe164;
+    box-shadow: 2px 2px 1px #393523;
+    color: blue;
+}
+
+header li a:hover{
+    background-color: #f2c821;
+    color: blue;
+}
+
+header li a:active{
+    background-color: #f2c821;
+    box-shadow: 1px 1px 0px #393523;
+    color: blue;
+}
+
+article{
+    padding: 12px 10px;
+    background-color: #c8c1e5;
+    border-radius: 5px;
+}
+
+article h1{ margin-top: 0px;}
+
+table{ border-collapse: collapse; }
+
+table td, table th{
+    padding: 4px 8px;
+}
+
+table th{
+    background-color: #5701ad;
+    color: #FFF;
+}
+
+table tr.bg-odd{
+    background-color: #a89ae0;
+}
+
+#roodborstje{
+    width: 100%;
+    max-width: 400px;
+}
+
+form input[type="text"], form input[type="email"], form textarea, form button{
+    display: block;
+    margin: 12px 0px;
+    padding: 4px;
+    width: 100%;
+    min-width: 150px;
+    max-width: 450px;
+    box-sizing: border-box;
+    border: 1px solid #5701ad;
+    border-radius: 5px;
+}
+
+form textarea{
+    height: 120px;
+}
+
+form button.verzend-btn{
+    display: inline-block;
+    padding: 8px 12px;
+    min-width: 80px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    color: blue;
+    background-color: #efe164;
+    box-shadow: 2px 2px 1px #554E34;
+    border: none;
+}
+
+form button.verzend-btn:hover{ background-color: #f2c821;}
+
+form button.verzend-btn:active{
+    background-color: #f2c821;
+    box-shadow: 1px 1px 0px #554E34;
+}
+
+footer{
+    padding: 6px 10px;
+    background-color: #3801ad;
+    color: #FFF;
+    border-radius: 5px;
+    margin-top: 4px;
+}
