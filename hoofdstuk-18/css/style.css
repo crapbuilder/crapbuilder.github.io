@@ -1,0 +1,102 @@
+*, ::before, ::after{ box-sizing:border-box;}
+
+header.col-12{
+    padding: 0px;
+}
+
+header h1{
+    background-image: url('../img/bergeijk.png');
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: 50%;
+    padding: 140px 30px 20px;
+    margin: 0px;
+    height: 300px;
+    color: #FFFFFF;
+    font-family: "Tangerine", cursive;
+    font-size: 4em;
+    text-align: center;
+    text-shadow: 0px 0px 2px #181818;
+}
+
+footer{
+    background-color: #00172d;
+    color: #FFFFFF;
+}
+
+.main-content{
+    background-color:#ab540e;
+}
+
+.main-content article{ clear: both;}
+
+.main-content article img{
+    width: 100%;
+    max-width:400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8px;
+}
+
+aside{
+    background-color: #002953;
+    color: #FFFFFF;
+}
+
+aside ul{
+    padding-left: 20px;
+}
+
+[class*="col-"]{ 
+    width: 100%;
+    padding: 12px 8px;  
+}
+
+@media only screen and (min-width: 600px){
+    .main-content article img{ 
+        display: inline;
+        float: right;
+        margin: 8px;
+    }
+}
+
+@media only screen and (min-width: 991px){
+    [class*="col-"]{
+        float: left;
+    }
+
+    .col-1{ width: 8.33%;}
+
+    .col-2{ width: 16.66%;}
+
+    .col-3{ width: 25%;}
+
+    .col-4{ width: 33.33%;}
+
+    .col-5{ width: 41.66%;}
+
+    .col-6{ width: 50%;}
+
+    .col-7{ width: 58.88%;}
+
+    .col-8{ width: 66.66%;}
+
+    .col-9{ width: 75%;}
+
+    .col-10{ width: 83.33%;}
+
+    .col-11{ width: 91,66%;}
+
+    .col-12{ width: 100%;}
+
+    header h1{
+        padding: 200px 30px 20px;
+        height: 500px;
+        font-size: 8em;
+    }
+}
+
+@media only screen and (min-width: 1500px){
+    header h1{background-size: 100% auto;}
+}
