@@ -53,9 +53,10 @@ aside ul{
     padding: 12px 8px;  
 }
 
+.clear-both{ clear: both;}
+
 @media only screen and (min-width: 600px){
     .main-content article img{ 
-        display: inline;
         float: right;
         margin: 8px;
     }
